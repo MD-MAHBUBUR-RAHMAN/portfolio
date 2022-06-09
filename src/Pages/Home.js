@@ -5,20 +5,41 @@ import ProjectsSummery from "./Projects/ProjectsSummery";
 const Home = () => {
   return (
     <section>
-      <div className=" bg-gray-100">
+      <div className=" bg-gray-100 bg-gradient-to-r from-cyan-500 to-blue-500">
         <div
           style={{ height: "600px" }}
           className="md:w-3/4 mx-auto lg:w-5/6 md:grid grid-cols-2 items-center gap-10"
         >
-          <img className="md:w-[400px] lg:w-[600px]" src={me} alt="mypicture" />
+          <img
+            className="md:w-[400px] lg:w-[600px]"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            src={me}
+            alt="mypicture"
+          />
           <div className="text-2xl p-5 flex-shrink">
-            <p className="mb-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam nesciunt sit doloribus facilis, iusto eos doloremque
-              culpa accusamus
+            <p
+              className="md:text-4xl"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              <span className="font-bold md:text-6xl">HI</span>
+              <span className="font-bold md:text-6xl text-fuchsia-700">! </span>
+              WELCOME TO MY PORTFOLIO
+            </p>
+            <p
+              className="mb-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            >
+              WEB DEVELOPER
             </p>
 
-            <button className="bg-yellow-400 mx-auto py-2 px-5 rounded relative left-24">
+            <button
+              className="bg-yellow-400 mx-auto py-2 px-5 rounded relative left-24"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
               <Link to="pdf">MyResume</Link>
             </button>
           </div>
