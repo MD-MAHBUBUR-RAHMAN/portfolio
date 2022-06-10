@@ -19,16 +19,17 @@ const ProjectsSummery = () => {
             data-aos="flip-left"
           >
             <div className="h-60 overflow-clip">
-              <img src={Warehouse} alt="" />
+              <img src={MRTOOL} alt="" />
             </div>
             <h3 className="text-2xl font-bold my-5">MR TOOLS CORP</h3>
-            <p className="w-full">
-              This is a stock management app. This App is used to Manage
-              Electronics products as stock. Using this app one can add and
-              delete the product. But before that one has to log in first.
+            <p>
+              This App is used to Manage Wholesale Tools Manufacturer’s
+              products. The Company sell different types of bits, drill and
+              stone cutter.
             </p>
-            <button className="bg-gradient-to-bl from-indigo-500 to-pink-500 px-5 rounded text-white text-xl my-5">
-              Detail
+
+            <button className="absolute bottom-5 bg-gradient-to-bl from-indigo-500 to-pink-500 px-5 rounded text-white text-xl my-5">
+              <Link to="tools">Detail</Link>
             </button>
           </div>
           <div
@@ -36,15 +37,17 @@ const ProjectsSummery = () => {
             className="mx-5 md:mx-0 md:w-64 lg:w-96  border p-5 mt-5 shadow-lg rounded-2xl"
           >
             <div className="h-60 overflow-clip">
-              <img src={MRTOOL} alt="" />
+              <img src={Warehouse} alt="" />
             </div>
             <h3 className="text-2xl font-bold my-5">WAREHOUSE</h3>
-            <p>
-              This App is used to Manage Wholesale Tools Manufacturer’s
-              products.
+            <p className="w-full">
+              This is a stock management app. This App is used to Manage
+              Electronics products as stock. Using this app one can add and
+              delete the product. But before that one has to log in first.
             </p>
-            <button className="absolute bottom-5 bg-gradient-to-bl from-indigo-500 to-pink-500 px-5 rounded text-white text-xl my-5">
-              Detail
+
+            <button className="bg-gradient-to-bl from-indigo-500 to-pink-500 px-5 rounded text-white text-xl my-5">
+              <Link to="warehouse">Detail</Link>
             </button>
           </div>
           <div

@@ -8,6 +8,8 @@ import Mypdf from "./Pages/Mypdf";
 import About from "./Pages/About";
 import Blog from "./Pages/Blog";
 import PowerFitness from "./Pages/Projects/PowerFitness";
+import WareHouse from "./Pages/Projects/WareHouse";
+import MrTools from "./Pages/Projects/MrTools";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="pdf" element={<Mypdf />} />
         <Route path="fitness" element={<PowerFitness />} />
+        <Route path="warehouse" element={<WareHouse />} />
+        <Route path="tools" element={<MrTools />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
