@@ -6,6 +6,7 @@ import ContactMe from "./Pages/ContactMe";
 import NotFound from "./Pages/NotFound";
 import Navbar from "./Pages/Navbar";
 import Mypdf from "./Pages/Mypdf";
+import About from "./Pages/About";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
         <Route path="contact" element={<ContactMe />} />
+        <Route path="about" element={<About />} />
         <Route path="pdf" element={<Mypdf />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

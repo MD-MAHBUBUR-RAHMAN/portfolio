@@ -9,6 +9,7 @@ const Navbar = () => {
     { id: 1, menue: "HOME", link: "/" },
     { id: 2, menue: "PROJECTS", link: "projects" },
     { id: 3, menue: "CONTACT", link: "contact" },
+    { id: 4, menue: "ABOUT ME", link: "about" },
   ];
   return (
     <nav className="bg-[#8ecae6]">

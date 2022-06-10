@@ -11,13 +11,13 @@ const Home = () => {
           className="md:w-3/4 mx-auto lg:w-5/6 md:grid grid-cols-2 items-center gap-10"
         >
           <img
-            className="md:w-[400px] lg:w-[600px]"
+            className="w-60 md:w-[400px] mx-auto pt-10 md:pt-0"
             data-aos="fade-up"
             data-aos-duration="3000"
             src={me}
             alt="mypicture"
           />
-          <div className="text-2xl p-5 flex-shrink">
+          <div className="text-2xl p-5 flex-shrink mt-20 md:mt-0">
             <p
               className="md:text-4xl"
               data-aos="fade-right"
