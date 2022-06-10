@@ -8,7 +8,7 @@ const Navbar = () => {
   const routes = [
     { id: 1, menue: "HOME", link: "/" },
     { id: 2, menue: "PROJECTS", link: "projects" },
-    { id: 3, menue: "CONTACT", link: "contsct" },
+    { id: 3, menue: "CONTACT", link: "contact" },
   ];
   return (
     <nav className="bg-[#8ecae6]">

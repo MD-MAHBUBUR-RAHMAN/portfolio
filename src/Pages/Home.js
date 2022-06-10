@@ -40,7 +40,7 @@ const Home = () => {
               data-aos="fade-left"
               data-aos-duration="3000"
             >
-              <Link to="pdf">MyResume</Link>
+              <Link to="pdf">Resume</Link>
             </button>
           </div>
         </div>
