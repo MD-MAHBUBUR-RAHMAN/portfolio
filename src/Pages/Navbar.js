@@ -7,12 +7,12 @@ const Navbar = () => {
   //   const [open, setOpen] = useState(false);
   const routes = [
     { id: 1, menue: "HOME", link: "/" },
-    { id: 2, menue: "PROJECTS", link: "projects" },
-    { id: 3, menue: "CONTACT", link: "contact" },
     { id: 4, menue: "ABOUT ME", link: "about" },
+    { id: 2, menue: "BLOG", link: "blog" },
+    { id: 3, menue: "CONTACT", link: "contact" },
   ];
   return (
-    <nav className="bg-[#8ecae6]">
+    <nav className="shadow-md">
       {/* <div onClick={() => setOpen(!open)} className="md:hidden">
         {open ? <Xbutton /> : <MenuButton />}
       </div> */}

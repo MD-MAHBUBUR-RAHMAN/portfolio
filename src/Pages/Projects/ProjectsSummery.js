@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import MRTOOL from "../../assets/MR TOOLS CORP.png";
 import PowerFitness from "../../assets/Power Fitness.png";
 import Warehouse from "../../assets/WARE HOUSE BD.png";
@@ -60,7 +61,7 @@ const ProjectsSummery = () => {
               provided by the instructor.
             </p>
             <button className="bg-gradient-to-bl from-indigo-500 to-pink-500 px-5 rounded text-white text-xl my-5">
-              Detail
+              <Link to="fitness">Detail</Link>
             </button>
           </div>
         </div>
